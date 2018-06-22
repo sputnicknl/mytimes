@@ -26,19 +26,36 @@ header img  {
 
 .container {
   display: flex;
+  justify-content: space-around;
+  width: auto;
+}
+
+.container p {
+  font-family: Georgia;
+font-size: 17px;
+color: black;
 }
 
 .column-main {
    width: 630px;
    display: flex;
+   border: solid 2px black;
+   flex-direction: column;
+
 }
 
 .column-medium {
   width: 300px;
+  display: flex;
+  border: solid 2px black;
+  flex-direction: column;
 }
 
 .column-small {
   width: 240px;
+  display: flex;
+  border: solid 2px black;
+  flex-direction: column;
 }
 
 .article {
@@ -47,4 +64,58 @@ header img  {
 
 .image-article {
   border: solid 2px black;
+}
+
+.title-image-main {
+  background-image: url("../Resources/Images/img-story-main.png");
+  display: flex;
+}
+
+.title-image-main h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.title-image-1 {
+  background-image: url("../Resources/Images/img-story-2.png");
+  display: flex;
+  height: 300px;
+  margin: 10px 0 10px 0;
+}
+
+.title-image-1 h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.title-image-2 {
+  background-image: url("../Resources/Images/img-story-3.png");
+  display: flex;
+  height: 300px;
+  margin: 10px 0 10px 0;
+}
+
+.title-image-2 h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.title-image-3 {
+  background-image: url("../Resources/Images/img-story-1.png");
+  display: flex;
+  height: 300px;
+  margin: 10px 0 10px 0;
+}
+
+.title-image-3 h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
