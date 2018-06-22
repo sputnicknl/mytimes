@@ -3,6 +3,24 @@ header   {
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  height: 90px;
+  border-bottom: solid 1px black;
   display: flex;
-  
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+header .nav a {
+  color: black;
+  padding-right: 30px;
+}
+
+header .logo {
+  padding-left: 30px;
+}
+
+header img  {
+  margin-right: 15px;
 }
