@@ -9,7 +9,6 @@ header   {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
 }
 
 header .nav a {
@@ -23,4 +22,29 @@ header .logo {
 
 header img  {
   margin-right: 15px;
+}
+
+.container {
+  display: flex;
+}
+
+.column-main {
+   width: 630px;
+   display: flex;
+}
+
+.column-medium {
+  width: 300px;
+}
+
+.column-small {
+  width: 240px;
+}
+
+.article {
+  border: solid 2px black;
+}
+
+.image-article {
+  border: solid 2px black;
 }
