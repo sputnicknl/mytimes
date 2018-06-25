@@ -26,8 +26,9 @@ header img  {
 
 .container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: auto;
+  margin-top: 15px;
 }
 
 .container p {
@@ -39,36 +40,46 @@ color: black;
 .column-main {
    width: 630px;
    display: flex;
-   border: solid 2px black;
-   flex-direction: column;
+   justify-content: flex-start;
+   flex-direction: row;
+   flex-wrap: wrap;
 
 }
 
 .column-medium {
   width: 300px;
   display: flex;
-  border: solid 2px black;
   flex-direction: column;
 }
 
 .column-small {
   width: 240px;
   display: flex;
-  border: solid 2px black;
   flex-direction: column;
 }
 
 .article {
-  border: solid 2px black;
+  width: 300px;
+  height: auto;
+  display: flex;
+  display: block;
+  justify-content: space-between;
 }
 
-.image-article {
-  border: solid 2px black;
+.main-article {
+  width: auto;
+  display: flex;
+  flex-wrap: wrap;
+  display: block;
 }
 
 .title-image-main {
   background-image: url("../Resources/Images/img-story-main.png");
   display: flex;
+  height: 300px;
+  width: 630px;
+  justify-content: center;
+  display: block;
 }
 
 .title-image-main h2 {
@@ -76,13 +87,16 @@ color: black;
   font-weight: bold;
   font-size: 40px;
   color: white;
+  display: block;
 }
 
 .title-image-1 {
   background-image: url("../Resources/Images/img-story-2.png");
   display: flex;
   height: 300px;
-  margin: 10px 0 10px 0;
+  width: 300px;
+  margin: 10px 10px 10px 0;
+  display: block;
 }
 
 .title-image-1 h2 {
@@ -90,13 +104,17 @@ color: black;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: block;
+  text-align: center;
 }
 
 .title-image-2 {
   background-image: url("../Resources/Images/img-story-3.png");
   display: flex;
   height: 300px;
-  margin: 10px 0 10px 0;
+  width: 300px;
+  margin: 10px 0 10px 10px;
+  display: block;
 }
 
 .title-image-2 h2 {
@@ -104,13 +122,17 @@ color: black;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: block;
+  text-align: center;
 }
 
 .title-image-3 {
   background-image: url("../Resources/Images/img-story-1.png");
   display: flex;
   height: 300px;
+  width: 300px;
   margin: 10px 0 10px 0;
+  display: block;
 }
 
 .title-image-3 h2 {
@@ -118,4 +140,27 @@ color: black;
   font-weight: bold;
   font-size: 30px;
   color: white;
+  display: block;
+  text-align: center;
+}
+
+.news-bites {
+  display: flex;
+  flex-direction: column;
+  display: block;
+}
+
+.news-bites h3 {
+  text-align: center;
+  weight: bold;
+}
+
+.news-bites .bites  {
+  display: block;
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+  border-bottom: 1px solid black;
+  padding: 11px 20px;
 }
